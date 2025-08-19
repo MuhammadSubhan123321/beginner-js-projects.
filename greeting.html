@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greeting</title>
+  </head>
+  <body>
+    <p>Greetings</p>
+
+    <button onclick="setName()">Name</button>
+
+    <button onclick="greet()">Greet</button>
+
+    <script>
+      let userName = "";
+
+      function setName() {
+        userName = prompt("Enter your name please:");
+        console.log("User entered name: " + userName);
+      }
+
+      function greet() {
+        if (userName) {
+          alert("Hi, " + userName);
+          console.log("Hi, " + userName);
+        } else {
+          alert("Hi, there");
+          console.log("Hi, there");
+        }
+      }
+    </script>
+  </body>
+</html>
