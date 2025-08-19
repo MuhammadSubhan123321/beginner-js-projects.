@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Distance Conversion</title>
+  </head>
+  <body>
+    <p>Distance Converter</p>
+
+    <button onclick="DistanceInfo('Mile-to-Kilometer')">Mile to Kilometer</button>
+    <button onclick="DistanceInfo('Mile-to-Feet')">Mile to Feet</button>
+    <button onclick="DistanceInfo('Kilometer-to-Mile')">Kilometer to Mile</button>
+    <button onclick="DistanceInfo('Kilometer-to-Feet')">Kilometer to Feet</button>
+    <button onclick="DistanceInfo('Feet-to-Mile')">Feet to Mile</button>
+    <button onclick="DistanceInfo('Feet-to-Kilometer')">Feet to Kilometer</button>
+    
+    <script>
+      function DistanceInfo(choice) {
+        let distance = prompt("Enter the number of distance you want to convert");
+        Conversion(distance, choice);
+      }
+
+      function Conversion(distance, choice) {
+        distance = parseFloat(distance); 
+
+        if (choice === "Mile-to-Kilometer") {
+          alert(`${distance} miles = ${distance * 1.60934} km`);
+        } 
+        else if (choice === "Mile-to-Feet") {
+          alert(`${distance} miles = ${distance * 5280} feet`);
+        } 
+        else if (choice === "Kilometer-to-Mile") {
+          alert(`${distance} km = ${distance * 0.621371} miles`);
+        } 
+        else if (choice === "Kilometer-to-Feet") {
+          alert(`${distance} km = ${distance * 3280.84} feet`);
+        } 
+        else if (choice === "Feet-to-Mile") {
+          alert(`${distance} feet = ${distance / 5280} miles`);
+        } 
+        else if (choice === "Feet-to-Kilometer") {
+          alert(`${distance} feet = ${distance / 3280.84} km`);
+        } 
+      }
+    </script>
+  </body>
+</html>
