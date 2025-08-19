@@ -53,15 +53,6 @@ Open the index.html file in your web browser.
 
 Interact with the project.
 
-🌟 Future Projects (Planned)
-
-🔢 Calculator (basic & scientific)
-
-📝 To-Do List
-
-🕹️ Rock–Paper–Scissors Game
-
-🌦️ Weather App (using API)
 
 ✅ Form Validation Project
 
