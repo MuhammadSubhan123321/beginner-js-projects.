@@ -7,26 +7,68 @@ Each project focuses on a different fundamental concept such as user input, cond
 
 📂 Projects Inside
 
-1. **Greeting App**  
-   - Lets the user enter their name and greets them.  
-   - If no name is provided, it defaults to `"Hi, there"`.  
+### 1️⃣ Distance Converter  
+- Convert between different units (Miles, Kilometers, Feet).  
+- Uses **functions** to take user input and display results.  
+- Shows how to handle **multiple choices** with buttons.  
 
-2. **Distance Converter**  
-   - Converts distances between miles, kilometers, and feet.  
-   - Demonstrates math operations and conditionals.  
+---
 
-3. **Rock–Paper–Scissors Game**  
-   - Classic game vs. computer with random moves.  
-   - Tracks wins, losses, and ties using objects + localStorage.  
+### 2️⃣ Rock Paper Scissors Game  
+- Classic **Rock, Paper, Scissors** against the computer.  
+- Uses **functions** for game logic and **Math.random()** for randomness.  
+- Extended version uses an **object (`score`)** and **localStorage (JSON.stringify / JSON.parse)** to save scores.  
 
-4. **Amazon Products (Objects Practice)**  
-   - Demonstrates object manipulation:  
-     - Updating values  
-     - Adding new properties  
-     - Comparing products  
+---
 
+### 3️⃣ Amazon Products (Objects Practice)  
+- Created **product objects** with properties (`name`, `price`, `delivery_time`).  
+- Used **dot notation** to update properties.  
+- Added new properties dynamically.  
+- Wrote functions to **compare two products** by price.  
+
+---
+
+### 4️⃣ Calculator (Eval Version)  
+- A simple calculator using buttons for digits and operators.  
+- Stores the expression in a **string variable** and evaluates it using `eval()`.  
+- Demonstrates **functions, memory allocation, and DOM events**.  
+
+---
+
+### 5️⃣ Cart Quantity Project  
+- A small **shopping cart simulator**.  
+- Buttons to increase, decrease, and reset cart quantity.  
+- Teaches **variables in memory, increment/decrement operators, and event-driven functions**.  
+
+---
+
+### 6️⃣ Coin Toss Game  
+- Simulates flipping a coin (**Heads/Tails**).  
+- Uses **random numbers** and a **ternary operator**.  
+- Demonstrates **functions** and comparison logic.  
+
+---
+
+### 7️⃣ Objects Equality Check (Practice)  
+- Functions to check if two object properties have the same value.  
+- Returns **true** or **false** depending on comparison.  
+- Reinforces working with **functions + objects**.  
 🛠️ Tech Stack
 
+---
+
+## 🛠️ Concepts Covered  
+- ✅ Variables & memory allocation  
+- ✅ Functions  
+- ✅ Objects & dynamic properties  
+- ✅ JSON (store/retrieve objects)  
+- ✅ LocalStorage for saving data  
+- ✅ Event handling (onclick buttons)  
+- ✅ Conditional logic (if-else, ternary operator)  
+- ✅ Random number generation   
+
+---
 HTML5
 
 CSS3 (minimal styling, can be extended)
