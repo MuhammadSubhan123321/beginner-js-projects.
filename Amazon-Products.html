@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amazon Products</title>
+  </head>
+  <body>
+    <p>Amazon Products</p>
+
+    <button onclick="ShowProduct1()">Product 1</button>
+    <button onclick="IncreasePrice1()">Increase Price Of Product 1</button>
+    <button onclick="DeliveryTime1()">Delivery Time for Product 1</button>
+
+    <button onclick="ShowProduct2()">Product 2</button>
+    <button onclick="IncreasePrice2()">Increase Price Of Product 2</button>
+    <button onclick="DeliveryTime2()">Delivery Time for Product 2</button>
+
+    <button onclick="Compare()">Compare Products</button>
+    <button onclick="SameProducts()">Check For Similar Products</button>
+
+
+    <script>
+      const Product1 = {
+        name: 'BasketBall',
+        price: 3000
+      };
+
+      const Product2 = {
+        name: 'Bat',
+        price: 2000
+      };
+
+      function ShowProduct1() {
+        console.log(Product1);
+      }
+
+      function IncreasePrice1() {
+        Product1.price += 500;
+        console.log(Product1);
+      }
+
+      function DeliveryTime1() {
+        Product1.delivery_time = '3 day';
+        console.log(Product1);
+      }
+
+      function ShowProduct2() {
+        console.log(Product2);
+      }
+
+      function IncreasePrice2() {
+        Product2.price += 250;
+        console.log(Product2);
+      }
+
+      function DeliveryTime2() {
+        Product2.delivery_time = '2 day';
+        console.log(Product2);
+      }
+
+      function Compare() {
+        if (Product1.price > Product2.price) {
+          console.log("Product 1 is more Expensive");
+        } else if (Product1.price < Product2.price) {
+          console.log("Product 2 is more Expensive");
+        } else {
+          console.log("Both products have same price");
+        }
+      }
+
+      function SameProducts() {
+        const result = (Product1.price === Product2.price);
+        console.log(result);
+
+      }
+    </script>
+  </body>
+</html>
