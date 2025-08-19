@@ -7,53 +7,23 @@ Each project focuses on a different fundamental concept such as user input, cond
 
 📂 Projects Inside
 
--Greeting
+1. **Greeting App**  
+   - Lets the user enter their name and greets them.  
+   - If no name is provided, it defaults to `"Hi, there"`.  
 
-Lets the user enter their name and greets them.
+2. **Distance Converter**  
+   - Converts distances between miles, kilometers, and feet.  
+   - Demonstrates math operations and conditionals.  
 
-If no name is provided, it defaults to "Hi, there".
+3. **Rock–Paper–Scissors Game**  
+   - Classic game vs. computer with random moves.  
+   - Tracks wins, losses, and ties using objects + localStorage.  
 
-Demonstrates: variables, conditionals, input/output.
-
--Distance Converter
-
-Converts distances between miles, kilometers, and feet.
-
-User selects a conversion type and inputs a value.
-
-Demonstrates: functions, user choice handling, mathematical operations.
-
--🎮 Rock–Paper–Scissors Game
-
-A simple Rock–Paper–Scissors game built with HTML and JavaScript where the player competes against the computer.
-
-🕹️ How to Play
-
-Open index.html in your browser.
-
-Choose one of the options: Rock, Paper, or Scissors.
-
-The computer randomly selects its move.
-
-An alert box shows:
-
-Your choice
-
-The computer’s choice
-
-The game result (Win, Lose, or Tie)
-
-✨ Features
-
-Player selects move via buttons.
-
-Computer move is generated randomly using Math.random().
-
-Game logic checks all possible outcomes.
-
-Result displayed in an easy-to-read alert.
-
-(More projects will be added as I continue learning!)
+4. **Amazon Products (Objects Practice)**  
+   - Demonstrates object manipulation:  
+     - Updating values  
+     - Adding new properties  
+     - Comparing products  
 
 🛠️ Tech Stack
 
