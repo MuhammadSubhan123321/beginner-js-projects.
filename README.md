@@ -54,7 +54,28 @@ Each project focuses on a different fundamental concept such as user input, cond
 - Functions to check if two object properties have the same value.  
 - Returns **true** or **false** depending on comparison.  
 - Reinforces working with **functions + objects**.  
-🛠️ Tech Stack
+
+  ---
+
+### 8️⃣ YouTube Subscribe Button (DOM Practice)
+
+-Button toggles between "Subscribe" and "Subscribed" when clicked.
+
+-Uses DOM selection (querySelector) and innerHTML updates.
+
+-Reinforces event handling + DOM manipulation.
+
+### 9️⃣ Amazon Shipping Calculator (DOM Practice)
+
+-Takes input for order cost.
+
+-Adds $10 shipping fee if order is less than $40.
+
+-Displays result dynamically in the browser.
+
+-Supports both button click and Enter key press.
+
+-Reinforces DOM input handling + conditionals.
 
 ---
 
@@ -66,7 +87,8 @@ Each project focuses on a different fundamental concept such as user input, cond
 - ✅ LocalStorage for saving data  
 - ✅ Event handling (onclick buttons)  
 - ✅ Conditional logic (if-else, ternary operator)  
-- ✅ Random number generation   
+- ✅ Random number generation
+- ✅ DOM (Document Object Model) manipulation
 
 ---
 HTML5
