@@ -1,11 +1,11 @@
-🌱 Beginner JavaScript Projects
+🌱 **Beginner JavaScript Projects**
 
-Welcome to my collection of beginner-friendly JavaScript projects.
-This repository is meant to showcase my learning journey and growth in JavaScript by building small, functional projects.
+**Welcome to my collection of beginner-friendly JavaScript projects.
+This repository is meant to showcase my learning journey and growth in JavaScript by building small, functional projects.**
 
-Each project focuses on a different fundamental concept such as user input, conditionals, functions, and basic DOM interaction.
+**Each project focuses on a different fundamental concept such as user input, conditionals, functions, and basic DOM interaction.**
 
-📂 Projects Inside
+📂 **Projects Inside**
 
 ### 1️⃣ Distance Converter  
 - Convert between different units (Miles, Kilometers, Feet).  
@@ -65,6 +65,8 @@ Each project focuses on a different fundamental concept such as user input, cond
 
 -Reinforces event handling + DOM manipulation.
 
+ ---
+
 ### 9️⃣ Amazon Shipping Calculator (DOM Practice)
 
 -Takes input for order cost.
@@ -91,13 +93,15 @@ Each project focuses on a different fundamental concept such as user input, cond
 - ✅ DOM (Document Object Model) manipulation
 
 ---
-HTML5
+🛠️ Tech Stack
 
-CSS3 (minimal styling, can be extended)
+- HTML5
 
-JavaScript (ES6)
+- CSS3 (minimal styling, can be extended)
 
-🚀 Purpose of This Repository
+- JavaScript (ES6)
+
+🚀 **Purpose of This Repository**
 
 Practice core JavaScript concepts.
 
@@ -107,7 +111,7 @@ Serve as a foundation for more advanced projects in the future.
 
 Share my journey publicly on GitHub.
 
-📌 How to Use
+📌** How to Use**
 
 Clone or download this repository.
 
@@ -117,9 +121,12 @@ Open the index.html file in your web browser.
 
 Interact with the project.
 
-
 ✅ Form Validation Project
 
-📜 License
+📜 **License**
 
 This repository is open-source and available under the MIT License.
+
+👨‍💻 **Developer**
+
+Muhammad Subhan – Full-Stack Developer (in progress)
